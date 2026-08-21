@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class ShapeProcessor
+    //Q10: interface constraint example.
+    class ShapeProcessor<T> where T : IShape
     {
+        public double GetArea(T shape) { return shape.GetArea(); }
     }
 }

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class Dog
+    //Used for Q9 and Q11: a class that inherits from Animal.
+    class Dog : Animal
     {
     }
 }

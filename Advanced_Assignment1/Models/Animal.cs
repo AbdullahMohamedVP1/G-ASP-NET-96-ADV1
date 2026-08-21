@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class Animal
+    //Used for Q11: base class constraint example.
+    class Animal
     {
+        public string Name = "";
     }
 }
