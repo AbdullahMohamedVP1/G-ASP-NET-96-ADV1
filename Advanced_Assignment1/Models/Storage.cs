@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Advanced_Assignment1.Models
 {
-    internal class Storage
+    //Q8: class constraint example
+    class Storage<T> where T : class
     {
+        public T Data;
     }
 }

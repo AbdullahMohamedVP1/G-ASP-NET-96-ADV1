@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class Calculator
+    //Q7: struct constraint example.
+    class Calculator<T> where T : struct
     {
+        public T Value;
     }
 }
