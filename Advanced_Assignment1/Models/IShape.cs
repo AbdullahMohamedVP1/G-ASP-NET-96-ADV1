@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class IShape
+    //Used for Q10: interface constraint example.
+    interface IShape
     {
+        double GetArea();
     }
 }

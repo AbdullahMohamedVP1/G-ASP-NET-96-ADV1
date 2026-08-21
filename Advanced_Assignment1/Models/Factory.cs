@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class Factory
+    //Q9: new() constraint example.
+    class Factory<T> where T : new()
     {
+        public T CreateInstance() { return new T(); }
     }
 }
