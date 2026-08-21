@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class Repository
+    //Q12: multiple constraints example (base class + interface + new()).
+    class Repository<T> where T : Animal, IShape, new()
     {
-        
+        public T Create() { return new T(); }
     }
 }

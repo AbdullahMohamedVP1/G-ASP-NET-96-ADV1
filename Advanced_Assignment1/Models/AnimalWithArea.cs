@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class AnimalWithArea
+    //Used for Q12: a class that inherits Animal AND implements IShape,
+    //needed to test multiple constraints together.
+    class AnimalWithArea : Animal, IShape
     {
+        public double GetArea() { return 0; }
     }
 }
