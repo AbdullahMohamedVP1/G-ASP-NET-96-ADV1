@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Advanced_Assignment1.Models
+﻿namespace Advanced_Assignment1
 {
-    internal class IRepository
+    //Q6: Write IRepository<T>.
+    interface IRepository<T>
     {
+        void Add(T item);
+        T GetById(int id);
     }
 }
